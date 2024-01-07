@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "MF2Back";
+  src:
+    url("res/font/MonsterFriend2Back.woff") format("woff"),
+    url("res/font/MonsterFriend2Back.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "MF2Center";
+  src:
+    url("res/font/MonsterFriend2Center.woff") format("woff"),
+    url("res/font/MonsterFriend2Center.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "MF2Fore";
+  src:
+    url("res/font/MonsterFriend2Fore.woff") format("woff"),
+    url("res/font/MonsterFriend2Fore.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "DTM Mono";
+  src:
+    url("res/font/DeterminationMono.woff") format("woff"),
+    url("res/font/DeterminationMono.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "DTM Sans";
+  src:
+    url("res/font/DeterminationSans.woff") format("woff"),
+    url("res/font/DeterminationSans.woff2") format("woff2");
+}
