@@ -5,5 +5,7 @@ Golden Flower Background Author: u/krimsonmay @ Reddit [Link to the art](https:/
 All music and sound effects credit goes to Toby Fox
 
 Undertale fonts credit goes to Haley Wakamatsu @ Behance
-[Determination Better]("https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font")
-[Monster Friends 2]("https://www.behance.net/gallery/100106185/Monster-Friend-2")
+
+[Determination Better](https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font)
+
+[Monster Friends 2](https://www.behance.net/gallery/100106185/Monster-Friend-2)
