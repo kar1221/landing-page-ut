@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "MF2Back";
+    src: url("res/font/MonsterFriend2Back.woff") format("woff"),
+        url("res/font/MonsterFriend2Back.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "MF2Center";
+    src: url("res/font/MonsterFriend2Center.woff") format("woff"),
+        url("res/font/MonsterFriend2Center.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "MF2Fore";
+    src: url("res/font/MonsterFriend2Fore.woff") format("woff"),
+        url("res/font/MonsterFriend2Fore.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "DTM Mono";
+    src: url("res/font/DeterminationMono.woff") format("woff");
+        url("res/font/DeterminationMono.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "DTM Sans";
+    src: url("res/font/DeterminationSans.woff") format("woff");
+        url("res/font/DeterminationSans.woff2") format("woff2");
+}
+
+:root {
+    --logo-font-back: "MF2Back";
+    --logo-font-center: "MF2Center";
+    --logo-font-front: "MF2Fore";
+    --primary-font: "DTM Mono";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--primary-font), sans-serif;
+}
+
+#background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url("res/waterfall.jpg") center no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.nav-bar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container .logo {
+    object-fit: cover;
+    height: 2em;
+    margin: 1em;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text div {
+    position: absolute;
+    color: white;
+    font-size: 2em;
+}
+
+#logo-first-layer {
+    font-family: var(--logo-font-back), sans-serif;
+    opacity: 0.5;
+}
+
+#logo-second-layer {
+    font-family: var(--logo-font-center), sans-serif;
+    color: red;
+}
+
+#logo-third-layer {
+    font-family: var(--logo-font-front), sans-serif;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 20%;
+}
+
+.link-container li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.link-container li a:hover {
+    color: #ffff00;
+}
