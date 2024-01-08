@@ -102,4 +102,89 @@ body {
 }
 
 .second-page {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: space-around;
+}
+
+.second-page .title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.soul-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.soul-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px white solid;
+  width: 15%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  margin: 2rem;
+  border-radius: 2rem;
+  transition: border 0.2s ease;
+}
+
+.soul-container:hover {
+  border: 2px lightgreen solid;
+}
+
+.soul-container img {
+  width: 30%;
+  transition: transform 0.2s ease;
+}
+
+.soul-container:hover img {
+  width: 30%;
+  transform: translateY(-2rem);
+}
+
+.soul-container .title {
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    visibility 0s,
+    opacity 0.5s ease;
+  font-size: 2rem;
+  color: white;
+}
+
+.soul-container:hover .title {
+  visibility: visible;
+  opacity: 1;
+}
+
+.third-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("res/golden-flower.png");
+  height: 60vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.quote-container {
+  padding: 2rem;
+  color: white;
+  font-size: 3rem;
+  background: #00000070;
+}
+
+.quote-author {
+  font-size: 2rem;
+  text-align: end;
 }
