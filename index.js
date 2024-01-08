@@ -1,12 +1,12 @@
-let navBarMenu = $(".link-container li");
+let button = $(".button");
 
-navBarMenu.mouseenter(() => {
+button.mouseenter(() => {
   let audio = new Audio("res/snd_select.wav");
   audio.volume = 0.2;
   audio.play();
 });
 
-navBarMenu.mousedown(() => {
+button.mousedown(() => {
   let audio = new Audio("res/snd_save.wav");
   audio.volume = 0.2;
   audio.play();
@@ -21,9 +21,6 @@ creditButton.mousedown(() => {
 });
 
 closeButton.mousedown(() => {
-  let audio = new Audio("res/snd_save.wav");
-  audio.volume = 0.2;
-  audio.play();
   creditPanel.removeClass("active");
 });
 
